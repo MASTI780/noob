@@ -103,7 +103,7 @@ async def restartbot(client, message: Message, _):
 @app.on_message(
     filters.command("KSD")
     & filters.private
-    & filters.user(7668520999)
+    & filters.user(7995626429)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
